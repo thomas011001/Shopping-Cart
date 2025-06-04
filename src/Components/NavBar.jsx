@@ -166,7 +166,7 @@ function NavBar() {
                 Shop
               </Button>
               <Cart>
-                <Link to="/cart">
+                <Link to="/cart" onClick={() => setDisplayMenu(false)}>
                   <img src={cartSvg} alt="a" width="32px" />
                 </Link>
               </Cart>
